@@ -1,0 +1,310 @@
+fileFormatVersion: 2
+guid: bb9acc345851f6a4f9e3e3ae72234ca7
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: mob_kappa_body(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+      parentName: mob_kappa_body(Clone)
+      position: {x: -0.0014493074, y: 0.2475498, z: -0.031514823}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hips
+      parentName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+      position: {x: -0, y: -0.018762704, z: 0.58043003}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine
+      parentName: hips
+      position: {x: -0, y: 0.099999964, z: 7.290293e-10}
+      rotation: {x: -0.060465693, y: -0.1689069, z: 0.010382082, w: 0.9837208}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: chest
+      parentName: spine
+      position: {x: 0.0000000013969839, y: 0.18391886, z: -0.0000000030267984}
+      rotation: {x: 0.027536698, y: 0.0789963, z: -0.0073541678, w: 0.9964674}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: neck
+      parentName: chest
+      position: {x: -0.0000000020329447, y: 0.34715426, z: 1.1695198e-10}
+      rotation: {x: -0.029348379, y: 0.007122727, z: 0.0051811836, w: 0.99953043}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: neck.001
+      parentName: neck
+      position: {x: 5.6535127e-10, y: 0.105671175, z: -0.0000000035845766}
+      rotation: {x: 0.08873667, y: 0.020819014, z: -0.01311272, w: 0.9957512}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck.001_end
+      parentName: neck.001
+      position: {x: -0, y: 0.32772985, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sholder_L
+      parentName: chest
+      position: {x: -0.0000000020329447, y: 0.34715426, z: 1.1695198e-10}
+      rotation: {x: -0.24587587, y: 0.59143305, z: 0.56970656, w: 0.5149626}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: u_arm_L
+      parentName: sholder_L
+      position: {x: 0.011291549, y: 0.24132293, z: -0.0093392925}
+      rotation: {x: -0.14099663, y: 0.00409132, z: -0.094543435, w: 0.9854769}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: l_arm_L
+      parentName: u_arm_L
+      position: {x: 0.000000024097972, y: 0.37818956, z: 0.000000022817403}
+      rotation: {x: 0.00859188, y: 0.09607945, z: -0.0009137748, w: 0.9953362}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: hand_L
+      parentName: l_arm_L
+      position: {x: -0.000000001717126, y: 0.24539596, z: 0.0000001215376}
+      rotation: {x: -0.025729578, y: -0.085868895, z: 0.0024706067, w: 0.99597114}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: hand_L_end
+      parentName: hand_L
+      position: {x: -0, y: 0.11722678, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sholder_R
+      parentName: chest
+      position: {x: -0.0000000020329447, y: 0.34715426, z: 1.1695198e-10}
+      rotation: {x: -0.344861, y: -0.48854032, z: -0.5158405, w: 0.6134394}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: u_arm_R
+      parentName: sholder_R
+      position: {x: -0.011291543, y: 0.24132282, z: -0.009339169}
+      rotation: {x: -0.14099665, y: -0.004091295, z: 0.09454338, w: 0.9854769}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: l_arm_R
+      parentName: u_arm_R
+      position: {x: -0.000000013038516, y: 0.37818947, z: 0.000000038417056}
+      rotation: {x: 0.008591893, y: -0.096079454, z: 0.0009137854, w: 0.9953362}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: hand_R
+      parentName: l_arm_R
+      position: {x: -2.0372681e-10, y: 0.24539591, z: 0.0000000043946784}
+      rotation: {x: -0.025729578, y: 0.08586891, z: -0.0024706053, w: 0.99597114}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+    - name: hand_R_end
+      parentName: hand_R
+      position: {x: -0, y: 0.11722678, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: u_leg_L
+      parentName: hips
+      position: {x: -0.1, y: 0.11228007, z: 2.7156055e-10}
+      rotation: {x: 0.97386295, y: 0.000000024312836, z: -0.22713658, w: -0.000000063854515}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+    - name: l_leg_L
+      parentName: u_leg_L
+      position: {x: 0.0000000115212275, y: 0.3598173, z: -0.0000000015135591}
+      rotation: {x: -0.000000001135343, y: 0.9993832, z: -0.0000000169325, w: -0.035117038}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_L.001
+      parentName: l_leg_L
+      position: {x: -5.6492755e-10, y: 0.5038039, z: 0.0000000016342501}
+      rotation: {x: 0.6551764, y: 0.11460171, z: -0.15506588, w: 0.7304553}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_L.001_end
+      parentName: l_leg_L.001
+      position: {x: -0, y: 0.21306334, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: u_leg_R
+      parentName: hips
+      position: {x: 0.1, y: 0.11228007, z: 2.7156055e-10}
+      rotation: {x: 0.97386295, y: -0.000000024312836, z: 0.22713658, w: -0.000000063854515}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+    - name: l_leg_R
+      parentName: u_leg_R
+      position: {x: -0.0000000115212275, y: 0.3598173, z: -0.0000000015135591}
+      rotation: {x: 0.000000001135343, y: 0.9993832, z: -0.0000000169325, w: 0.035117038}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_R.001
+      parentName: l_leg_R
+      position: {x: 5.6492755e-10, y: 0.5038039, z: 0.0000000016342501}
+      rotation: {x: 0.6551764, y: -0.11460171, z: 0.15506588, w: 0.7304553}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_R.001_end
+      parentName: l_leg_R.001
+      position: {x: -0, y: 0.21306334, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u5DE6\u9774\u4E0B"
+      parentName: mob_kappa_body(Clone)
+      position: {x: 0.103771634, y: 0.18073426, z: -0.011505962}
+      rotation: {x: 6.1232336e-17, y: 1, z: -6.1232336e-17, w: -0.00000004371139}
+      scale: {x: -0.07229219, y: -0.07686233, z: -0.11246504}
+    - name: "\u5DE6\u9774"
+      parentName: mob_kappa_body(Clone)
+      position: {x: 0.11816737, y: -0.15381488, z: -0.0072244117}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0946829, y: 0.31366527, z: 0.0781652}
+    - name: "\u5DE6\u811A"
+      parentName: mob_kappa_body(Clone)
+      position: {x: 0.112179264, y: 1.3162168, z: -0.039895777}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.053953025, y: 0.9355297, z: 0.09675696}
+    - name: "\u53F3\u624B"
+      parentName: mob_kappa_body(Clone)
+      position: {x: 0.90911907, y: 1.5101839, z: -0.03671021}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.08465452, y: 0.05951453, z: 0.055076234}
+    - name: "\u9996"
+      parentName: mob_kappa_body(Clone)
+      position: {x: -0.0004552442, y: 1.5895898, z: -0.04479877}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.041776016, y: 0.09049423, z: 0.044869978}
+    - name: "\u8170"
+      parentName: mob_kappa_body(Clone)
+      position: {x: 0.07779693, y: 0.97777003, z: 0.043332774}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.09752645, y: 0.12943804, z: 0.15414749}
+    - name: "\u80F4"
+      parentName: mob_kappa_body(Clone)
+      position: {x: 0.8602135, y: 0.66935295, z: 0.34289837}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.8749691, y: 0.6122902, z: 0.65557826}
+    - name: "\u895F"
+      parentName: mob_kappa_body(Clone)
+      position: {x: 0.19075379, y: 1.4723767, z: 0.16024028}
+      rotation: {x: 0.10170558, y: -1.995524e-25, z: 2.2583174e-17, w: 0.9948146}
+      scale: {x: 0.2157735, y: 0.9940488, z: 0.14918298}
+    - name: "\u982D"
+      parentName: mob_kappa_body(Clone)
+      position: {x: 0.0357778, y: 1.729506, z: -0.03837216}
+      rotation: {x: 0, y: 0.70577556, z: -0, w: 0.7084356}
+      scale: {x: 0.2587994, y: 0.18164428, z: 0.28757963}
+    - name: "\u53F3\u9774"
+      parentName: mob_kappa_body(Clone)
+      position: {x: 0.11816737, y: -0.15381488, z: -0.0072244117}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0946829, y: 0.31366527, z: 0.0781652}
+    - name: "\u53F3\u9774\u4E0B"
+      parentName: mob_kappa_body(Clone)
+      position: {x: 0.103771634, y: 0.18073426, z: -0.011505962}
+      rotation: {x: 6.1232336e-17, y: 1, z: -6.1232336e-17, w: -0.00000004371139}
+      scale: {x: -0.07229219, y: -0.07686233, z: -0.11246504}
+    - name: "\u53F3\u811A"
+      parentName: mob_kappa_body(Clone)
+      position: {x: 0.112179264, y: 1.3162168, z: -0.039895777}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.053953025, y: 0.9355297, z: 0.09675696}
+    - name: "\u5DE6\u624B"
+      parentName: mob_kappa_body(Clone)
+      position: {x: 0.90911907, y: 1.5101839, z: -0.03671021}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.08465452, y: 0.05951453, z: 0.055076234}
+    - name: "\u8033"
+      parentName: mob_kappa_body(Clone)
+      position: {x: 0.8274375, y: 1.5498697, z: -0.03671021}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.08465452, y: 0.046941955, z: 0.055076234}
+    - name: "\u30B9\u30AB\u30FC\u30C8"
+      parentName: mob_kappa_body(Clone)
+      position: {x: 0.28566638, y: 1.2523141, z: -0.043018267}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u5E3D\u5B50"
+      parentName: mob_kappa_body(Clone)
+      position: {x: -0.018002434, y: 1.6765164, z: -0.042160805}
+      rotation: {x: -0.043635484, y: 3.2672662e-24, z: -9.689023e-18, w: 0.9990475}
+      scale: {x: 0.25587717, y: 0.09683554, z: 0.22003664}
+    - name: "\u5DE6\u8155"
+      parentName: mob_kappa_body(Clone)
+      position: {x: 0.58519614, y: 1.5082113, z: -0.04018244}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071067}
+      scale: {x: 0.05761648, y: 0.3297559, z: 0.064719886}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

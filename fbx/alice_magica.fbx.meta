@@ -1,0 +1,321 @@
+fileFormatVersion: 2
+guid: 9de278bac8cdf6f4f8a784135ca136e1
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: alice_magica(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+      parentName: alice_magica(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hips
+      parentName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+      position: {x: 0.000021816715, y: 0.00047668102, z: 0.009291023}
+      rotation: {x: 0.69065666, y: -0.00000008621023, z: -0.000000082332775, w: 0.7231828}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine
+      parentName: hips
+      position: {x: -2.0001777e-14, y: 0.0010514557, z: -5.2015163e-12}
+      rotation: {x: 0.0036649809, y: -0.17221099, z: -0.010656723, w: 0.98499566}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: chest
+      parentName: spine
+      position: {x: -2.7939677e-11, y: 0.0019512391, z: 5.122274e-11}
+      rotation: {x: 0.003983706, y: 0.06720081, z: 0.015720949, w: 0.99760765}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: neck
+      parentName: chest
+      position: {x: 2.561137e-11, y: 0.0030342448, z: 7.392373e-11}
+      rotation: {x: 0.028295185, y: 0.027474185, z: -0.038000777, w: 0.99849916}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: neck.001
+      parentName: neck
+      position: {x: -1.8626451e-11, y: 0.0014642155, z: 5.3551046e-11}
+      rotation: {x: 0.01684136, y: 0.012216529, z: 0.036504716, w: 0.9991169}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: neck.001_end
+      parentName: neck.001
+      position: {x: -0, y: 0.0029658857, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sholder_L
+      parentName: chest
+      position: {x: 2.561137e-11, y: 0.0030342448, z: 7.392373e-11}
+      rotation: {x: -0.23931521, y: 0.64921594, z: 0.6342031, w: 0.34501216}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: u_arm_L
+      parentName: sholder_L
+      position: {x: 0.0003289325, y: 0.0015244923, z: -0.00013958763}
+      rotation: {x: -0.08207508, y: -0.064951375, z: -0.24510099, w: 0.9638312}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: l_arm_L
+      parentName: u_arm_L
+      position: {x: -3.7252902e-11, y: 0.0037815578, z: 1.44355e-10}
+      rotation: {x: 0.0031808086, y: 0.096471764, z: -0.00043826265, w: 0.9953306}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: hand_L
+      parentName: l_arm_L
+      position: {x: -6.0535965e-11, y: 0.0031801697, z: -4.623871e-10}
+      rotation: {x: 0.0141648045, y: -0.08494962, z: 0.14751984, w: 0.98530245}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_L_end
+      parentName: hand_L
+      position: {x: -0, y: 0.0007616913, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sholder_R
+      parentName: chest
+      position: {x: 2.561137e-11, y: 0.0030342448, z: 7.392373e-11}
+      rotation: {x: 0.375471, y: 0.5591206, z: 0.57407147, w: -0.46566904}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: u_arm_R
+      parentName: sholder_R
+      position: {x: -0.00032893283, y: 0.0015244922, z: -0.00013958984}
+      rotation: {x: -0.08210812, y: 0.064907424, z: 0.24514501, w: 0.9638201}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: l_arm_R
+      parentName: u_arm_R
+      position: {x: 3.9814038e-10, y: 0.0037379253, z: 6.519258e-11}
+      rotation: {x: 0.0032231805, y: -0.09643494, z: 0.0003944973, w: 0.995334}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: hand_R
+      parentName: l_arm_R
+      position: {x: 1.3969838e-11, y: 0.003180169, z: -4.5889464e-10}
+      rotation: {x: 0.014164803, y: 0.084949575, z: -0.14751984, w: 0.98530245}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: hand_R_end
+      parentName: hand_R
+      position: {x: -0, y: 0.0007616913, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: u_leg_L
+      parentName: hips
+      position: {x: -0.0008018046, y: 0.00076084636, z: 0.00045542858}
+      rotation: {x: 0.97345304, y: -0.0018163841, z: -0.22718959, w: -0.027763397}
+      scale: {x: 1.0000068, y: 1, z: 1.0000815}
+    - name: l_leg_L
+      parentName: u_leg_L
+      position: {x: 1.8626451e-11, y: 0.0053772912, z: 1.8626451e-11}
+      rotation: {x: 0.014421929, y: 0.99928963, z: -0.010717419, w: -0.033126734}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: l_leg_L.001
+      parentName: l_leg_L
+      position: {x: -1.10594554e-11, y: 0.0045299474, z: -3.2159733e-11}
+      rotation: {x: 0.49695334, y: 0.16662742, z: -0.1924226, w: 0.8296061}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: l_leg_L.001_end
+      parentName: l_leg_L.001
+      position: {x: -0, y: 0.0013649268, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: u_leg_R
+      parentName: hips
+      position: {x: 0.0008018047, y: 0.00076084636, z: 0.00045542823}
+      rotation: {x: 0.9734531, y: 0.001819309, z: 0.22718953, w: -0.027761774}
+      scale: {x: 1.0000068, y: 1, z: 1.0000819}
+    - name: l_leg_R
+      parentName: u_leg_R
+      position: {x: 2.7939677e-11, y: 0.0053772917, z: -9.3132255e-12}
+      rotation: {x: -0.014421924, y: 0.99928963, z: -0.01071746, w: 0.033126738}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: l_leg_R.001
+      parentName: l_leg_R
+      position: {x: 1.3969838e-11, y: 0.004529947, z: 6.111804e-12}
+      rotation: {x: 0.4969533, y: -0.16662751, z: 0.19242267, w: 0.8296061}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: l_leg_R.001_end
+      parentName: l_leg_R.001
+      position: {x: -0, y: 0.0013649268, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u53F3\u811A"
+      parentName: alice_magica(Clone)
+      position: {x: 0.089434594, y: 0.82398725, z: -0.048444882}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.06630151, y: 0.17465217, z: 0.07612983}
+    - name: "\u30BF\u30A4"
+      parentName: alice_magica(Clone)
+      position: {x: -0.004650563, y: 0, z: 0.09006488}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u8170\u5E2F"
+      parentName: alice_magica(Clone)
+      position: {x: 0.00071831606, y: -0.0023437142, z: -0.08137967}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u5E2F"
+      parentName: alice_magica(Clone)
+      position: {x: -0.00013024732, y: 1.1491834, z: 0.025994813}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.23668846, y: 0.07949382, z: 0.22802651}
+    - name: "\u5DE6\u80A9"
+      parentName: alice_magica(Clone)
+      position: {x: -0.004650563, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u9996"
+      parentName: alice_magica(Clone)
+      position: {x: 0.0009426251, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u53F3\u80A9"
+      parentName: alice_magica(Clone)
+      position: {x: -0.004650563, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u80F4"
+      parentName: alice_magica(Clone)
+      position: {x: -0, y: 1.2963428, z: -0.024280826}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.8471256}
+    - name: "\u30D6\u30FC\u30C4"
+      parentName: alice_magica(Clone)
+      position: {x: 0.10300224, y: 0.20780379, z: -0.030288095}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.1888301, y: 1, z: 1.0340841}
+    - name: "\u5DE6\u811A"
+      parentName: alice_magica(Clone)
+      position: {x: 0.089434594, y: 0.82398725, z: -0.048444882}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.06630151, y: 0.17465217, z: 0.07612983}
+    - name: "\u80A1\u9593"
+      parentName: alice_magica(Clone)
+      position: {x: -0.00761427, y: 1.0175989, z: -0.021804035}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u624B"
+      parentName: alice_magica(Clone)
+      position: {x: 0.8810974, y: 1.5350109, z: -0.032490276}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.07067428, y: 0.0475118, z: 0.07075362}
+    - name: "\u8155"
+      parentName: alice_magica(Clone)
+      position: {x: 0.6117309, y: 1.5397514, z: -0.037073217}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071067}
+      scale: {x: 0.035054892, y: 0.25405574, z: 0.039216295}
+    - name: "\u895F"
+      parentName: alice_magica(Clone)
+      position: {x: 0.18061031, y: 1.6568027, z: -0.13117374}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u9854"
+      parentName: alice_magica(Clone)
+      position: {x: 0.0051094973, y: 1.7784998, z: 0.026365638}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u9AEA"
+      parentName: alice_magica(Clone)
+      position: {x: -0, y: 1.8529071, z: 0.018166233}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.9062843}
+    - name: "\u30AB\u30C1\u30E5\u30FC\u30B7\u30E3"
+      parentName: alice_magica(Clone)
+      position: {x: -0, y: 2.0114427, z: 0.118655354}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u30B9\u30AB\u30FC\u30C8"
+      parentName: alice_magica(Clone)
+      position: {x: -0.00016449764, y: 0.32104865, z: -0.03746921}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u30BF\u30A4\u9996"
+      parentName: alice_magica(Clone)
+      position: {x: -0, y: 1.6535707, z: -0.007890075}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.2642505, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
